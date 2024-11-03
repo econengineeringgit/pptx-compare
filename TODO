@@ -1,0 +1,26 @@
+# Project TODO
+
+Tasks when setting up the project
+
+- [ ] Update the fields in the pyproject.toml file
+- [ ] Update the README.md file
+- [ ] Update the LICENSE file (if needed)
+- [ ] Look for the following replacements:
+  - "Your Name"
+  - "<your.email@example.com>"
+  - "my_minimal_project"
+  - "my-minimal-project"
+  - "example.com"
+  - "github-username"
+
+Tasks when starting development
+
+- [ ] Create a virtual environment `python -m venv .venv`
+- [ ] Activate the virtual environment `.venv\Scripts\activate` (Windows) or `source .venv/bin/activate` (Linux/Mac)
+- [ ] Install the development dependencies `pip install -e .[dev]`
+
+Tasks when creating a new release
+
+- [ ] Update the [CHANGELOG.md](./CHANGELOG.md) file
+- [ ] Update the [README.md](./README.md) file with new features or changes
+- [ ] update the version in the [__init__.py](src/my_minimal_project/__init__.py) file

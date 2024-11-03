@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools>=42", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+####################
+# MARK:  Project
+####################
+
+[project]
+name = "my-minimal-project"
+description = "A brief description of your project."
+keywords = ["example", "minimal", "project"]
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["readme", "version"]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["mypy", "pytest", "pylint", "black"]
+
+[project.urls]
+Homepage = "https://example.com/my-minimal-project"
+Documentation = "https://example.com/project-docs"
+Source = "https://github.com/github-username/my-minimal-project"
+Tracker = "https://github.com/github-username/my-minimal-project/issues"
+
+[tool.setuptools.dynamic]
+readme = { file = "README.md", content-type = "text/markdown" }
+version = { attr = "my_minimal_project.__version__" }
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+####################
+# MARK:  PyLint
+####################
+
+[tool.pylint.MAIN]
+jobs = 2
+
+[tool.pylint.FORMAT]
+max-line-length = 120
+
+[tool.pylint."MESSAGES CONTROL"]
+# List of message ids to disable for all files
+disable="missing-module-docstring"
+
+####################
+# MARK:  black
+####################
+
+[tool.black]
+line-length = 120
+
+####################
+# MARK:  mypy
+####################
+[tool.mypy]
+
+ignore_missing_imports = true
+warn_unreachable = true
+warn_unused_ignores = true
+pretty = true # Nice formatting for error messages
