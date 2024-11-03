@@ -1,4 +1,4 @@
-from my_minimal_project.feature import add
+from pptx_compare.feature import add
 
 
 def test_add():

@@ -2,10 +2,10 @@
 
 Tasks when setting up the project
 
-- [ ] Update the fields in the pyproject.toml file
-- [ ] Update the README.md file
-- [ ] Update the LICENSE file (if needed)
-- [ ] Look for the following replacements:
+- [x] Update the fields in the pyproject.toml file
+- [x] Update the README.md file
+- [x] Update the LICENSE file (if needed)
+- [x] Look for the following replacements:
   - "Your Name"
   - "<your.email@example.com>"
   - "my_minimal_project"

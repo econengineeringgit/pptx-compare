@@ -1,6 +1,6 @@
-# My Minimal Project
+# PPTX compare
 
-A brief description of what the project does.
+Compare two PowerPoint files and generate a report of the differences.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ A brief description of what the project does.
 Instructions on how to install the project, including any prerequisites. For example:
 
 ```bash
-pip install my-minimal-project
+pip install pptx-compare
 ```
 
 ## Usage
@@ -23,10 +23,10 @@ pip install my-minimal-project
 Examples of how to use the project. Include code snippets:
 
 ```python
-import my_minimal_project
+import pptx_compare
 
 # Example usage
-result = my_minimal_project.do_stuff()
+result = pptx_compare.do_stuff()
 print(result)
 ```
 
@@ -44,4 +44,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Maintainer - [Your Name](https://github.com/github-username)
+Maintainer - [Peter Mizsak](https://github.com/MizsakPeterEcon)

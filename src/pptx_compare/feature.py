@@ -1,7 +1,7 @@
 """
 This is a feature module.
 
-@author: "Your Name" <your.email@econengineering.com>
+@author: "Peter Mizsak" <Peter.Mizsak@econengineering.com>
 """
 
 

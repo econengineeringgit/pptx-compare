@@ -4,7 +4,7 @@ description: Create a report to help us improve.
 labels: ["bug"]
 title: "[BUG]: "
 assignees:
-  - github-username
+  - MizsakPeterEcon
 
 body:
   - type: markdown
